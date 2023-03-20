@@ -6,6 +6,7 @@ Compiler C-flags: -Wall -Wextra -g3 -lSDL2main -lSDL2 -lm -ldl
 
 # Compile it in Windows
 It needs the src folder in the project root. Inside src should be the include and lib folders.
+
 Compiler C-flags: -Wall -Wextra -g3 -Isrc/include -Lsrc/lib -lmingw32 -lSDL2main -lSDL2 -lm
 
 # Open it in Windows
